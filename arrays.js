@@ -26,10 +26,10 @@ function destructivelyRemoveElementFromBeginningofArray(array) {
   return array.shift();
 } 
 
-function removeElementFromBeginningOfArray(array) {
-  return array.slice(1);
-}
-
 function destructivelyRemoveElementFromEndOfArray(array) {
   return array.pop();
+}
+
+function removeElementFromBeginningOfArray(array) {
+  return array.slice(1);
 }
